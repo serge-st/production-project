@@ -1,0 +1,19 @@
+{
+  "name": "production-project",
+  "version": "1.0.0",
+  "description": "portfolio project with production setup",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/serge-st/production-project.git"
+  },
+  "author": "Serge Stecenko",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/serge-st/production-project/issues"
+  },
+  "homepage": "https://github.com/serge-st/production-project#readme"
+}
