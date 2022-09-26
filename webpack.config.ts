@@ -1,8 +1,9 @@
-import * as path from 'path';
-// import path from 'path';
-import * as webpack from 'webpack';
-const HtmlWebpackPlugin = require("html-webpack-plugin");
-// import * as HtmlWebpackPlugin from 'html-webpack-plugin';
+// import * as path from 'path';
+// import * as webpack from 'webpack';
+// const HtmlWebpackPlugin = require("html-webpack-plugin");
+import path from 'path';
+import webpack from 'webpack';
+import HtmlWebpackPlugin from 'html-webpack-plugin';
 
 const config: webpack.Configuration = {
     mode: 'development',
@@ -10,9 +11,9 @@ const config: webpack.Configuration = {
     module: {
         rules: [
             {
-            test: /\.tsx?$/,
-            use: 'ts-loader',
-            exclude: /node_modules/,
+                test: /\.tsx?$/,
+                use: 'ts-loader',
+                exclude: /node_modules/,
             },
         ],
     },

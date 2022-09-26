@@ -1,3 +1,3 @@
-export function someFn() {
-    console.log('TEST FUNCTION ts');
+export function someFn(arg: number | string): void {
+    console.log(`TEST FUNCTION ${arg}`);
 }
