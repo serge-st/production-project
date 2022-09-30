@@ -4,7 +4,6 @@ import { Route, Routes } from "react-router-dom";
 import './styles/index.scss';
 import { AboutPageAsync } from "./pages/AboutPage/AboutPage.async";
 import { MainPageAsync } from "./pages/MainPage/MainPage.async";
-import { Theme, ThemeContext } from "./theme/ThemeContext";
 import { useTheme } from "./theme/useTheme";
 
 
